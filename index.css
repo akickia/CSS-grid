@@ -1,14 +1,14 @@
 .grid-parent {
-    min-height: 66vh;
+    min-height: 94vh;
     height: 100%;
-    max-width: 98vw;
+    max-width: 97vw;
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-rows: 20% 10% 10% 20% 20% 20% 20%;
+    grid-template-rows: 2fr 1fr 1fr 2fr 2fr 2fr 2fr;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     background-color: rgb(255, 255, 255);
-    gap: 4% 2%;
+    gap: 3% 2%;
 }
 
 .grid-child--1 {
